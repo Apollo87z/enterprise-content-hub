@@ -1,0 +1,7 @@
+﻿services:
+  enterprisecontenthub.api:
+    image: enterprisecontenthub.api
+    build:
+      context: .
+      dockerfile: EnterpriseContentHub.Api/Dockerfile
+
